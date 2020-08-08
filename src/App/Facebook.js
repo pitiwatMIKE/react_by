@@ -80,7 +80,7 @@ export default class Facebook extends Component {
         >
           <FacebookLogin
             appId="1859503354205689"
-            autoLoad={true}
+            autoLoad={false}
             fields="name,email,picture"
             onClick={this.componentClicked}
             callback={this.responseFacebook}
